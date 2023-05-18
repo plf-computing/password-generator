@@ -2,8 +2,8 @@
 <h1>PASSWORD GENERATOR</h1>
 <div>
   <label>Enter Length</label>
-<input (input)= "this.onChangeLength.emit((e.target as HTMLTextAreaElement).value)"/>
- 
+<input (input)= "onChangeLength($event.target.value)"/>
+
 </div>
 <div>
   <label> Use letters</label>
